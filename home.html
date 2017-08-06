@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOSM App Admin Control Panel</title>
+	<link rel="stylesheet" type="text/css" href="css/home-style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="home.html">
+					<img src="images/title.png" id="admin-text-img">
+					<span id="admin-header-text">BOSM</span> Admin Panel
+				</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="home.html"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid" id="content-div">
+		<div id="dashboard-text">
+			<span class="glyphicon glyphicon-home" id="dashboard-text-img"></span> <h2 id="dashboard-main-text">Dashboard</h2>
+		</div>
+		<div class="btn-group btn-group-justified">
+			<a href="register.html" class="btn btn-primary" id="register-eve"><span class="glyphicon glyphicon-plus"></span><span> Register Events</span></a>
+			<a href="result.html" class="btn btn-primary" id="upload-res"><span class="glyphicon glyphicon-equalizer"></span><span> Upload Results</span></a>
+			<a href="register.html" class="btn btn-primary" id="update-eve"><span class="glyphicon glyphicon-pencil"></span><span> Update Event</span></a>
+			<a href="result.html" class="btn btn-primary" id="update-res"><span class="glyphicon glyphicon-refresh"></span><span> Update Result</span></a>
+		</div>
+		<div id="statistics-text">
+			<span class="glyphicon glyphicon-stats" id="statistics-text-img"></span> <h2 id="statistics-main-text">Statistics</h2>
+		</div>
+		<div id="stats">
+			<div id="num-registered">Number of Events Registered : 30</div>
+			<div id="num-completed">Number of Events Completed : 20</div>
+			<div id="num-res-upload">Number of Results Uploaded : 10</div>
+		</div>
+	</div>
+</body>
+</html>
