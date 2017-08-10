@@ -1,0 +1,124 @@
+html,body
+{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.navbar
+{
+	border-radius: 0 !important;
+	margin-bottom: 0 !important;
+}
+#admin-text-img
+{
+	width: 25px;
+	height: 25px;
+	display: inline;
+}
+#admin-header-text
+{
+	color: rgb(255,70,70);
+	display: inline;
+}
+#content-div
+{
+	padding-top: 20px;
+	height: 92%;
+	background: url(../images/bckg.jpg);
+	background-size: 100% 100%;
+}
+#dashboard-text
+{
+	padding-bottom: 20px;
+	color: #432F75;
+}
+#dashboard-main-text
+{
+	display: inline;
+}
+#dashboard-text-img
+{
+	display: inline;
+	font-size: 30px;
+	margin-right: 10px;
+}
+.btn-group>.btn
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	display: table;
+}
+.btn-group>.btn>.glyphicon
+{
+	font-size: 40px;
+	padding-right: 20px;
+}
+.btn-group>.btn>span
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+#upload-res
+{
+	background-color: rgb(221,162,28);
+	border-color: rgb(221,162,28);
+}
+#upload-res:hover
+{
+	background-color: rgb(201,142,8);
+	border-color: rgb(201,142,8);
+}
+#update-eve
+{
+	background-color: rgb(28,221,186);
+	border-color: rgb(28,221,186);
+}
+#update-eve:hover
+{
+	background-color: rgb(8,201,166);
+	border-color: rgb(8,201,166);
+}
+#update-res
+{
+	background-color: rgb(221,57,28);
+	border-color: rgb(221,57,28);
+}
+#update-res:hover
+{
+	background-color: rgb(201,37,8);
+	border-color: rgb(201,37,8);
+}
+#statistics-text
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #432F75;
+}
+#statistics-main-text
+{
+	display: inline;
+}
+#statistics-text-img
+{
+	display: inline;
+	font-size: 30px;
+	margin-right: 10px;
+}
+#num-registered,#num-completed,#num-res-upload
+{
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+#num-registered
+{
+	color: #582A72;
+}
+#num-completed
+{
+	color: #582A72;
+}
+#num-res-upload
+{
+	color: #582A72;
+}

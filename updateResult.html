@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Update Result</title>
+	<link rel="stylesheet" type="text/css" href="css/update-result-style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/updateResult.js"></script>
+</head>
+<body>
+	<div class="container-fluid" id="content-wrapper">
+		<div class="panel panel-info">
+			<div class="panel-heading"><h1>Result</div>
+			<div class="panel-body">
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Select Event</label>
+						<div class="col-sm-10">
+							<select onchange="displayEventResults(this)">
+								<option value="0" disabled selected>---Select---</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group" id="oldteamResult">
+						<label class="col-sm-2 control-label">Current Winner</label>
+						<div class="col-sm-10">
+							<span id="currentTeamWinner"></span>
+						</div>
+					</div>
+					<div class="form-group" id="newteamResult">
+						<label class="col-sm-2 control-label">New Winner!</label>
+						<div class="col-sm-5 form-group">
+							<div class="col-sm-2">
+								<input class="form-control" type="radio" name="winner" value="1">
+							</div>
+							<div class="col-sm-10">Team A Placeholder</div>
+						</div>
+						<div class="col-sm-5 form-group">
+							<div class="col-sm-2">
+								<input class="form-control" type="radio" name="winner" value="2">
+							</div>
+							<div class="col-sm-10">Team B Placeholder</div>
+						</div>
+					</div>
+					<div class="form-group" id="oldfirstPlace">
+						<label class="col-sm-2 control-label">Current First</label>
+						<div class="col-sm-10">
+							<span id="currentFirstPlace"></span>
+						</div>
+					</div>
+					<div class="form-group" id="oldsecondPlace">
+						<label class="col-sm-2 control-label">Current Second</label>
+						<div class="col-sm-10">
+							<span id="currentSecondPlace"></span>
+						</div>
+					</div>
+					<div class="form-group" id="oldthirdPlace">
+						<label class="col-sm-2 control-label">Current Third</label>
+						<div class="col-sm-10">
+							<span id="currentThirdPlace"></span>
+						</div>
+					</div>
+					<div class="form-group" id="newfirstPlace">
+						<label class="col-sm-2 control-label">New First</label>
+						<div class="col-sm-10">
+							<input class="form-control" type="text" name="first">
+						</div>
+					</div>
+					<div class="form-group" id="newsecondPlace">
+						<label class="col-sm-2 control-label">New Second</label>
+						<div class="col-sm-10">
+							<input class="form-control" type="text" name="second">
+						</div>
+					</div>
+					<div class="form-group" id="newthirdPlace">
+						<label class="col-sm-2 control-label">New Third</label>
+						<div class="col-sm-10">
+							<input class="form-control" type="text" name="third">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-12">
+							<input type="submit" value="Submit">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
