@@ -25,19 +25,31 @@
 		<div id="dashboard-text">
 			<span class="glyphicon glyphicon-home" id="dashboard-text-img"></span> <h2 id="dashboard-main-text">Dashboard</h2>
 		</div>
-		<div class="btn-group btn-group-justified">
+		<div class="btn-group btn-group-justified" id="large-screen-buttons">
 			<a href="register.html" class="btn btn-primary" id="register-eve"><span class="glyphicon glyphicon-plus"></span><span> Register Events</span></a>
 			<a href="result.html" class="btn btn-primary" id="upload-res"><span class="glyphicon glyphicon-equalizer"></span><span> Upload Results</span></a>
 			<a href="register.html" class="btn btn-primary" id="update-eve"><span class="glyphicon glyphicon-pencil"></span><span> Update Event</span></a>
 			<a href="result.html" class="btn btn-primary" id="update-res"><span class="glyphicon glyphicon-refresh"></span><span> Update Result</span></a>
 		</div>
-		<div id="statistics-text">
-			<span class="glyphicon glyphicon-stats" id="statistics-text-img"></span> <h2 id="statistics-main-text">Statistics</h2>
+		<div class="container-fluid text-center" id="small-screen-buttons">
+			<div class="btn-group btn-group-vertical">
+				<a href="register.html" class="btn btn-primary" id="register-eve"><span class="glyphicon glyphicon-plus"></span><span> Register Events</span></a>
+				<a href="result.html" class="btn btn-primary" id="upload-res"><span class="glyphicon glyphicon-equalizer"></span><span> Upload Results</span></a>
+				<a href="register.html" class="btn btn-primary" id="update-eve"><span class="glyphicon glyphicon-pencil"></span><span> Update Event</span></a>
+				<a href="result.html" class="btn btn-primary" id="update-res"><span class="glyphicon glyphicon-refresh"></span><span> Update Result</span></a>
+			</div>
 		</div>
-		<div id="stats">
-			<div id="num-registered">Number of Events Registered : 30</div>
-			<div id="num-completed">Number of Events Completed : 20</div>
-			<div id="num-res-upload">Number of Results Uploaded : 10</div>
+		<div id="statistics-wrap">
+			<div id="statistics">
+				<div id="statistics-text">
+					<span class="glyphicon glyphicon-stats" id="statistics-text-img"></span> <h2 id="statistics-main-text">Statistics</h2>
+				</div>
+				<div id="stats">
+					<div id="num-registered">Number of Events Registered : 30</div>
+					<div id="num-completed">Number of Events Completed : 20</div>
+					<div id="num-res-upload">Number of Results Uploaded : 10</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
